@@ -19,16 +19,22 @@ header{
     border-radius: 1%;
     box-shadow: 2px 2px #ddd;
 }
-nav ul{
-    padding: 0;
-    margin: 10px 34px;
+nav{
+    padding: 0px 34px;
     font-size: 14px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
 }
 nav li{
     list-style: none;
     display: inline-block;
     text-decoration: none;
-    padding: 0px 8px;
+    padding: 8px;
 }
 nav li a{
     text-decoration: none;
