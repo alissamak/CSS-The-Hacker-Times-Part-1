@@ -69,7 +69,6 @@ main p{
     text-align: justify;
     padding: 0px 15px;
 }
-
 .more-articles section{
     display: inline-block;
     width: 44%;
@@ -82,4 +81,42 @@ main p{
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.grid-articles{
+    border-top: 2px solid #eee;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    width: 218px;
+}
+.grid-item img{
+    width: 225px;
+}
+footer{
+    width: 700px;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin: auto;
+}
+#footer-title{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#footer-title a{
+    text-decoration: none;
+    color: #777;
+    font-size: 13px;
+}
+#footer-title a:hover{
+    text-decoration: underline;
+}
+footer nav{
+    background-color: #eee;
+    padding: 0px 60px;
+}
+footer nav li a:hover{
+    text-decoration: underline;
 }
